@@ -7,7 +7,7 @@ function App() {
     <div> {/* this is the page wrapper */}
       
       {/* Header */}
-      <div>
+      <div className="bg-black">
         Lorem ipsum
       </div>
       
