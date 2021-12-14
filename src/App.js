@@ -4,7 +4,7 @@ import './styles/css/App.css'; // stylesheet for CSS styles
 function App() {
   return (
     
-    <div> {/* this is the page wrapper */}
+    <div> {/* this is the page container */}
       
       {/* Header */}
       <div className="bg-black">
