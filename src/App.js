@@ -1,6 +1,7 @@
 import './styles/tailwind_css/directives.css'; // directives for Tailwind styles
 import './styles/css/App.css'; // stylesheet for CSS styles
 import Header from "./components/Header";
+import CardCollection from "./components/CardCollection"
 
 function App() {
   return (
