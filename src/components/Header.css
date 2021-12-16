@@ -21,6 +21,8 @@
     height: 50px;
     border-radius: 50px;
     align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .searchIconContainer {
@@ -39,6 +41,7 @@
 .headerItems {
     display: flex;
     color: #a1a5b0;
+    margin-right: 10px;
 }
 
 .headerItems > p {
