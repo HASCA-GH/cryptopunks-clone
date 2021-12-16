@@ -10,13 +10,12 @@ function App() {
       {/* Header */}
       <div className="app">
         {" "}
-        <Header /> abcde
+        <Header /> 
       </div>
-      {/* Body test2 */}
+      {/* Body */}
       <div>Lorem ipsum; This is the Body.... working as a Team</div>
     </div>
   );
 }
 
-export default App; 
-
+export default App;
