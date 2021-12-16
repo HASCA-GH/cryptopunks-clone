@@ -10,7 +10,7 @@ function App() {
       {/* Header */}
       <div className="app">
         {" "}
-        <Header /> abcde
+        <Header /> 
       </div>
       {/* Body */}
       <div>Lorem ipsum; This is the Body.... working as a Team</div>
