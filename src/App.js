@@ -1,14 +1,22 @@
 import './styles/tailwind_css/directives.css'; // directives for Tailwind styles
 import './styles/css/App.css'; // stylesheet for CSS styles
-import CollectionCard from './components/CollectionCard'
+import Header from "./components/Header";
 
 function App() {
   return (
-    
-    <div> {/* this is the page container */}
-      <CollectionCard id={0} name={'Bandana Punk'} traits={[{'value': 7}]} image="https://ipfs.thirdweb.com/ipfs/bafybeigqkficum3anns36jid3dxvc4yfauyuvqjulbg43n23qxn3ce3tyu"/>
+    <div>
+      {" "}
+      {/* this is the page wrapper */}
+      {/* Header */}
+      <div className="app">
+        {" "}
+        <Header /> abcde
+      </div>
+      {/* Body test2 */}
+      <div>Lorem ipsum; This is the Body.... working as a Team</div>
     </div>
   );
 }
 
-export default App;
+export default App; 
+
