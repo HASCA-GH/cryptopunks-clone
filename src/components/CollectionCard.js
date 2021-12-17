@@ -4,7 +4,7 @@ import weth from '../assets/weth.png'
 
 function CollectionCard({ id, name, traits, image}) {
     return (
-        <div className="text-white bg-[#1a1c1e] w-[300px] h-[500px] rounded-[20px] mr-[30px] overflow-hidden">
+        <div className="text-white bg-[#1a1c1e] w-[300px] h-[500px] rounded-[20px] mr-[30px] overflow-hidden cursor-pointer">
             <img src={image} alt="Some Punk NFT"/>
             <div className="p-[20px]"> {/* details - padding*/}
 

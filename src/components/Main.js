@@ -28,9 +28,9 @@ const Main = ({activePunk}) => {
             </div>
 
             <div className="flex items-end">
-                <img src={instagramLogo} alt=""/>
-                <img src={twitterLogo} alt=""/>
-                <img src={otherLogo} alt=""/>
+                <img className="cursor-pointer" src={instagramLogo} alt=""/>
+                <img className="cursor-pointer" src={twitterLogo} alt=""/>
+                <img className="cursor-pointer" src={otherLogo} alt=""/>
             </div>
 
         </div>

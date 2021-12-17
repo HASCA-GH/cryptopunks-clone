@@ -4,7 +4,7 @@ import CollectionCard from './CollectionCard'
 
 function PunkList({punkListData}) {
     return (
-        <div className="flex cursor-pointer overflow-x-scroll mt-[20px] pb-[20px] border-b-[1px] border-solid border-white scrollbar-hide">
+        <div className="flex overflow-x-scroll mt-[20px] pb-[20px] border-b-[1px] border-solid border-white scrollbar-hide mr-[-30px]">
             {punkListData.map(punk => (
                 <div>
                     <CollectionCard
