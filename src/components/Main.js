@@ -18,7 +18,7 @@ const Main = ({selectedPunk, punkListData}) => {
             
             <img className="rounded-lg h-[50vh]" src={activePunk.image_original_url} alt="Active Punk"/>
 
-            <div className="flex flex-col flex-1 justify-between ml-4">
+            <div className="flex flex-col flex-1 justify-between ml-8">
 
                 <div className="flex items-center">
                     <div className="font-[900] text-white text-9xl">{activePunk.name}</div>
