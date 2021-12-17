@@ -20,12 +20,12 @@ const Main = ({selectedPunk, punkListData}) => {
 
             <div className="flex flex-col flex-1 justify-between ml-8">
 
-                <div className="flex items-center">
-                    <div className="font-[900] text-white text-9xl">{activePunk.name}</div>
+                <div className="flex flex-wrap items-center">
+                    <div className="font-[900] text-white text-8xl">{activePunk.name}</div>
                     <div className="font-[900] text-[#a1a5b0] text-6xl">•#{activePunk.token_id}</div>
                 </div>
 
-                <div className="flex items-center">
+                <div className="flex flex-wrap items-center">
                     <a href={"https://testnets.opensea.io/"+activePunk.owner.address}><img src={activePunk.owner.profile_img_url} alt="owner avatar" className="mr-4 bg-white rounded-full h-14 w-14" /></a>
                     <div>
                         <div>{activePunk.owner.address}</div>
