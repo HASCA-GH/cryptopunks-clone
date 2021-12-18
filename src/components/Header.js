@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import '../styles/tailwind_css/directives.css';
 import punklogo from "../assets/header/cryptopunk-logo.png";
 import searchIcon from "../assets/header/search.png";
 import themeSwitchIcon from "../assets/header/theme-switch.png";
@@ -9,7 +10,7 @@ const Header = () => {
     <div className="header">
       {/* <h2>i AM THE hEADER 🚀🖥️</h2> */}
       <div class="logoContainer">
-        <img src={punklogo} className="punklogo" alt="Punk Logo" />
+        <img src={punklogo} className="punklogo cursor-pointer" alt="Punk Logo" />
       </div>
       <div className="searchBar">
         <div className="searchIconContainer">
