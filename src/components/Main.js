@@ -15,18 +15,18 @@ const Main = ({selectedPunk, punkListData}) => {
     }, [punkListData, selectedPunk]) // dependency array - the page will update if array elements change without refreshing
 
     return (
-        <div className="main-container text-white flex flex-wrap justify-between overflow-hidden border-b-[1px] border-solid border-white pb-[20px] mt-[10px]">
+        <div className="main-container text-white flex  justify-between overflow-hidden border-b-[1px] border-solid border-white pb-[20px] mt-[10px]">
             
             <img className="selected-punk rounded-lg h-[50vh]" src={activePunk.image_original_url} alt="Active Punk"/>
 
             <div className="details-container flex flex-col flex-1 justify-between ml-8">
 
-                <div className="name-hyper flex flex-wrap items-center">
+                <div className="name-hyper flex items-center">
                     <div className="name-container font-[900] text-white text-8xl">{activePunk.name}</div>
                     <div className="name-container font-[900] text-[#a1a5b0] text-6xl">•#{activePunk.token_id}</div>
                 </div>
 
-                <div className="owner-container flex flex-wrap items-center">
+                <div className="owner-container flex items-center">
                     <a href={"https://testnets.opensea.io/"+activePunk.owner.address}><img src={activePunk.owner.profile_img_url} alt="owner-avatar" className="owner-avatar mr-4 bg-white rounded-full h-14 w-14" /></a>
                     <div className="owner-details">
                         <div>{activePunk.owner.address}</div>

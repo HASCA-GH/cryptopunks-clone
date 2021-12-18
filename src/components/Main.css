@@ -12,11 +12,6 @@
         height: 300px;
     }
 
-    .list-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
     .owner-container{
         flex-direction: column;
         margin-bottom: 20px;
