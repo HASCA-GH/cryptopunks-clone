@@ -1,6 +1,5 @@
 .header {
     color: white;
-    /* height:100px; */
     display: flex;  
     justify-content: space-between;
     align-items: center;
@@ -8,6 +7,10 @@
 
 .header > div {
     margin: 10px;   
+}
+
+.logoContainer {
+    min-width: 200px;
 }
 
 .punklogo {
@@ -23,6 +26,7 @@
     align-items: center;
     margin-left: 20px;
     margin-right: 20px;
+    min-width: 25vmin;
 }
 
 .searchIconContainer {
@@ -41,7 +45,7 @@
 .headerItems {
     display: flex;
     color: #a1a5b0;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .headerItems > p {
@@ -67,7 +71,6 @@
     justify-content: center;
     align-items: center;
     object-fit: contain;
-
 }
 
 .themeSwitchContainer > img {
@@ -81,3 +84,24 @@
     padding: 15px 40px;
     color: black;
 }
+
+.loginButton button {
+    width: 9vmin;
+}
+
+@media screen and (max-width: 1100px) {
+    .header   {
+      flex-direction: column;
+    }
+    .searchBar {
+        margin:20px 0px;
+    }
+    .searchInput {
+        flex: 1;
+        min-width: 300px;
+        margin: 9px;
+    }
+    .loginButton button {
+        width: 88px;
+    }
+  }
