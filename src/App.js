@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     const getMyNfts = async () => {
-      const openseaData = await axios('https://testnets-api.opensea.io/assets?asset_contract_address=0x2B9A4acAdC21990e50B0AB4c056eFad5A2DbE6E9&order_direction=asc', {headers: {'Access-Control-Allow-Origin': '*'}}) // returns array of nfts info
+      const openseaData = await axios('https://cryptopunk-clone-server.herokuapp.com', {headers: {'Access-Control-Allow-Origin': '*'}}) // returns array of nfts info
       setPunkListData(openseaData.data.assets)
     }
     return getMyNfts()
