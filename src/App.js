@@ -21,7 +21,7 @@ function App() {
   return (
       <div className="app">
         <Header />
-        {punkListData.length > 0 && (
+        {punkListData.length > 0 && ( // ternary operator
           <>
             <Main punkListData={punkListData} selectedPunk={selectedPunk}/>
             <PunkList punkListData={punkListData} setSelectedPunk={setSelectedPunk}/>

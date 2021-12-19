@@ -3,7 +3,7 @@ import './PunkList.css';
 import '../styles/tailwind_css/directives.css'; // directives for Tailwind styles
 import CollectionCard from './CollectionCard';
 
-function PunkList({punkListData, setSelectedPunk}) {
+const PunkList = ({punkListData, setSelectedPunk}) => {
     return (
         <div className="punks-container flex overflow-x-scroll mt-[20px] pb-[20px] border-b-[1px] border-solid border-white scrollbar-hide">
             {punkListData.map(punk => (

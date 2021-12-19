@@ -3,7 +3,7 @@ import './CollectionCard.css'
 import '../styles/tailwind_css/directives.css';
 import weth from '../assets/weth.png'
 
-function CollectionCard({ id, name, traits, image}) {
+const CollectionCard = ({ id, name, traits, image}) => {
     return (
         <div className="card-container text-white bg-[#1a1c1e] w-[300px] h-[500px] rounded-[20px] overflow-hidden cursor-pointer">
             <img className="card-avatar" src={image} alt="Some Punk NFT"/>
