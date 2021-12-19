@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className="header">
       {/* <h2>i AM THE hEADER 🚀🖥️</h2> */}
-      <div class="logoContainer">
+      <div className="logoContainer">
         <img src={punklogo} className="punklogo cursor-pointer" alt="Punk Logo" />
       </div>
       <div className="searchBar">
